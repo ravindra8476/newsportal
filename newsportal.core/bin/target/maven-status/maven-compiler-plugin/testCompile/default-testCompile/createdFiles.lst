@@ -1,0 +1,5 @@
+com\gofortrainings\newsportal\core\filters\LoggingFilterTest.class
+com\gofortrainings\newsportal\core\servlets\SimpleServletTest.class
+com\gofortrainings\newsportal\core\listeners\SimpleResourceListenerTest.class
+com\gofortrainings\newsportal\core\schedulers\SimpleScheduledTaskTest.class
+com\gofortrainings\newsportal\core\models\HelloWorldModelTest.class

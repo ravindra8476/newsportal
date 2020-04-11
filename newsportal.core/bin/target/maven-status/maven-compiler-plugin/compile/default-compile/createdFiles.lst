@@ -1,0 +1,8 @@
+com\gofortrainings\newsportal\core\schedulers\SimpleScheduledTask$Config.class
+com\gofortrainings\newsportal\core\package-info.class
+com\gofortrainings\newsportal\core\listeners\SimpleResourceListener.class
+com\gofortrainings\newsportal\core\servlets\SimpleServlet.class
+com\gofortrainings\newsportal\core\filters\LoggingFilter.class
+com\gofortrainings\newsportal\core\models\HelloWorldModel.class
+com\gofortrainings\newsportal\core\ProductInfo.class
+com\gofortrainings\newsportal\core\schedulers\SimpleScheduledTask.class
