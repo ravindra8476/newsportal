@@ -13,8 +13,8 @@ import org.osgi.service.event.Event;
 import org.osgi.service.event.EventConstants;;
 
 @Component(service=EventHandler.class,
-           property= {EventConstants.EVENT_TOPIC +"="+ReplicationAction.EVENT_TOPIC,
-        		      EventConstants.EVENT_FILTER +"=(&(type=ACTIVATE)(paths=/content/FlaxSEO/en_in/index/*))"
+           property= {EventConstants.EVENT_TOPIC +"="+ReplicationAction.EVENT_TOPIC
+        		      //EventConstants.EVENT_FILTER +"=(&(type=ACTIVATE)(paths=/content/gofortrainings/en_in/index/*))"
         		      
         		      
         		     // EventConstants.EVENT_TOPIC +"="+PageEvent.EVENT_TOPIC
