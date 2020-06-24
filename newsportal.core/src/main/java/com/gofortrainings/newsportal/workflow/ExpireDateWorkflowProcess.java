@@ -32,9 +32,9 @@ public class ExpireDateWorkflowProcess implements WorkflowProcess {
 		try {
 			Map<String, Object> props = new HashMap<>();
 			props.put(factory.SUBSERVICE, "writeservice");
-			ResourceResolver resolver = factory.getResourceResolver(props);
-			Resource resource = resolver.getResource(payload+ "/jcr:content"); 
-			if (resource !=null & payload !=null) {
+			ResourceResolver resolver = factory.getServiceResourceResolver(props);
+			Resource resource = resolver.getResource(payload + "/jcr:content"); 
+			if (resource !=null && payload !=null) {
 				Node node = resource.adaptTo(Node.class);
 				Calendar cal= Calendar.getInstance();
 				cal.set(Calendar.DATE, 20);
